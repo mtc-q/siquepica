@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img" aria-label="Donitas 100 g">
+<defs>
+<radialGradient id="gloss" cx=".35" cy=".3" r=".7"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset=".35" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<linearGradient id="sheen" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".45" stop-color="#fff" stop-opacity=".22"/><stop offset=".6" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="soft" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#5a1a10" flood-opacity=".22"/></filter>
+</defs>
+<rect width="480" height="480" fill="#FFF1DB"/>
+<g transform="translate(373,305) scale(1.25)"><circle r="15" fill="none" stroke="#F69225" stroke-width="11"/><circle r="15" fill="none" stroke="#E0451F" stroke-width="11" stroke-dasharray="3 5" opacity=".55"/></g>
+<g transform="translate(51,265) scale(1.25)"><circle r="15" fill="none" stroke="#F69225" stroke-width="11"/><circle r="15" fill="none" stroke="#E0451F" stroke-width="11" stroke-dasharray="3 5" opacity=".55"/></g>
+<g transform="translate(388,201) scale(1.25)"><circle r="15" fill="none" stroke="#F69225" stroke-width="11"/><circle r="15" fill="none" stroke="#E0451F" stroke-width="11" stroke-dasharray="3 5" opacity=".55"/></g>
+<g transform="translate(53,73) scale(1.25)"><circle r="15" fill="none" stroke="#F69225" stroke-width="11"/><circle r="15" fill="none" stroke="#E0451F" stroke-width="11" stroke-dasharray="3 5" opacity=".55"/></g>
+<g transform="translate(74,218) scale(1.25)"><circle r="15" fill="none" stroke="#F69225" stroke-width="11"/><circle r="15" fill="none" stroke="#E0451F" stroke-width="11" stroke-dasharray="3 5" opacity=".55"/></g>
+<g transform="translate(120,370) scale(1.25)"><circle r="15" fill="none" stroke="#F69225" stroke-width="11"/><circle r="15" fill="none" stroke="#E0451F" stroke-width="11" stroke-dasharray="3 5" opacity=".55"/></g>
+<g transform="translate(89,151) scale(1.25)"><circle r="15" fill="none" stroke="#F69225" stroke-width="11"/><circle r="15" fill="none" stroke="#E0451F" stroke-width="11" stroke-dasharray="3 5" opacity=".55"/></g>
+<g filter="url(#soft)">
+<path d="M140 70 H340 Q350 70 350 82 L362 392 Q364 420 336 420 H144 Q116 420 118 392 L130 82 Q130 70 140 70 Z" fill="#FFE6D2"/>
+</g>
+<path d="M132 104 H348" stroke="#000" stroke-opacity=".18" stroke-width="3" stroke-dasharray="6 4"/>
+<circle cx="240" cy="88" r="6" fill="#FFF1DB"/>
+<clipPath id="win4"><rect x="170" y="290" width="140" height="98" rx="49"/></clipPath>
+<rect x="170" y="290" width="140" height="98" rx="49" fill="#fff" fill-opacity=".55"/>
+<g clip-path="url(#win4)">
+<g transform="translate(296,333) scale(0.9)"><circle r="15" fill="none" stroke="#F69225" stroke-width="11"/><circle r="15" fill="none" stroke="#E0451F" stroke-width="11" stroke-dasharray="3 5" opacity=".55"/></g>
+<g transform="translate(251,298) scale(0.9)"><circle r="15" fill="none" stroke="#F69225" stroke-width="11"/><circle r="15" fill="none" stroke="#E0451F" stroke-width="11" stroke-dasharray="3 5" opacity=".55"/></g>
+<g transform="translate(254,363) scale(0.9)"><circle r="15" fill="none" stroke="#F69225" stroke-width="11"/><circle r="15" fill="none" stroke="#E0451F" stroke-width="11" stroke-dasharray="3 5" opacity=".55"/></g>
+<g transform="translate(280,352) scale(0.9)"><circle r="15" fill="none" stroke="#F69225" stroke-width="11"/><circle r="15" fill="none" stroke="#E0451F" stroke-width="11" stroke-dasharray="3 5" opacity=".55"/></g>
+<g transform="translate(285,355) scale(0.9)"><circle r="15" fill="none" stroke="#F69225" stroke-width="11"/><circle r="15" fill="none" stroke="#E0451F" stroke-width="11" stroke-dasharray="3 5" opacity=".55"/></g>
+<g transform="translate(234,337) scale(0.9)"><circle r="15" fill="none" stroke="#F69225" stroke-width="11"/><circle r="15" fill="none" stroke="#E0451F" stroke-width="11" stroke-dasharray="3 5" opacity=".55"/></g>
+<g transform="translate(186,308) scale(0.9)"><circle r="15" fill="none" stroke="#F69225" stroke-width="11"/><circle r="15" fill="none" stroke="#E0451F" stroke-width="11" stroke-dasharray="3 5" opacity=".55"/></g>
+<g transform="translate(293,378) scale(0.9)"><circle r="15" fill="none" stroke="#F69225" stroke-width="11"/><circle r="15" fill="none" stroke="#E0451F" stroke-width="11" stroke-dasharray="3 5" opacity=".55"/></g>
+<g transform="translate(295,341) scale(0.9)"><circle r="15" fill="none" stroke="#F69225" stroke-width="11"/><circle r="15" fill="none" stroke="#E0451F" stroke-width="11" stroke-dasharray="3 5" opacity=".55"/></g>
+<g transform="translate(225,306) scale(0.9)"><circle r="15" fill="none" stroke="#F69225" stroke-width="11"/><circle r="15" fill="none" stroke="#E0451F" stroke-width="11" stroke-dasharray="3 5" opacity=".55"/></g>
+<g transform="translate(226,379) scale(0.9)"><circle r="15" fill="none" stroke="#F69225" stroke-width="11"/><circle r="15" fill="none" stroke="#E0451F" stroke-width="11" stroke-dasharray="3 5" opacity=".55"/></g>
+<g transform="translate(245,321) scale(0.9)"><circle r="15" fill="none" stroke="#F69225" stroke-width="11"/><circle r="15" fill="none" stroke="#E0451F" stroke-width="11" stroke-dasharray="3 5" opacity=".55"/></g>
+</g>
+<rect x="162" y="128" width="156" height="146" rx="18" fill="#fff"/>
+<g transform="translate(240,170) scale(1.15)">
+  <path d="M-14 6 C-22 -6 -16 -18 -8 -24 C-9 -14 -2 -12 0 -6 C2 -14 6 -16 8 -20 C12 -10 8 2 -2 8 Z" fill="#FFF432"/>
+  <path d="M-10 6 C-14 -2 -10 -10 -5 -14 C-5 -6 0 -4 2 0 C4 4 0 8 -4 9 Z" fill="#F69225"/>
+  <path d="M18 -22 C26 -14 24 6 8 18 C-2 25 -14 26 -18 22 C-12 20 0 14 6 4 C12 -6 12 -14 10 -20 Z" fill="#DA2F47"/>
+  <path d="M10 -22 C13 -27 20 -27 22 -21 C19 -19 13 -19 10 -22 Z" fill="#77B255"/>
+  <path d="M16 -25 C16 -29 19 -32 22 -32" stroke="#77B255" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+</g>
+<text x="240" y="222" text-anchor="middle" font-family="Bungee, Impact, sans-serif" font-size="19" fill="#E0451F">DONITAS</text>
+<text x="240" y="244" text-anchor="middle" font-family="Figtree, Arial, sans-serif" font-weight="700" font-size="12" letter-spacing="2" fill="#E0451F" opacity=".8">enchilados</text>
+<rect x="210" y="252" width="60" height="16" rx="8" fill="#E0451F"/><text x="240" y="264" text-anchor="middle" font-family="Figtree, Arial, sans-serif" font-weight="800" font-size="11" fill="#fff">100 g</text>
+<path d="M150 72 L178 72 L150 418 L128 418 Z" fill="url(#sheen)"/>
+</svg>

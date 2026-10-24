@@ -1,0 +1,606 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Siquepica® | Dulces enchilados en Saltillo y Monterrey</title>
+  <meta name="description" content="Dulces enchilados y fruta deshidratada con chile. Pide por WhatsApp, encuéntranos en Rappi Saltillo y Monterrey o recibe en todo México con envíos nacionales.">
+  <meta name="theme-color" content="#DA2F47">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icon-32.png">
+  <link rel="apple-touch-icon" href="img/icon-180.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:title" content="Siquepica® | Dulces enchilados">
+  <meta property="og:description" content="Dulce, picosito y adictivo. Bolsitas, charolas y fruta enchilada desde Saltillo y Monterrey para todo México.">
+  <meta property="og:image" content="img/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preload" href="fonts/bungee.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "Siquepica",
+    "description": "Dulces enchilados y fruta deshidratada con chile",
+    "image": "img/logo.png",
+    "telephone": "+52 844 274 8215",
+    "areaServed": ["Saltillo", "Monterrey", "México"],
+    "sameAs": ["https://www.instagram.com/siquepica_mx/"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <!-- ============ ENCABEZADO ============ -->
+  <header class="topbar" id="topbar">
+    <div class="topbar__inner">
+      <a href="#inicio" class="brand" data-tab-link="inicio" aria-label="Siquepica, ir al inicio">
+        <img src="img/logo.png" alt="" width="44" height="44">
+        <span class="brand__name">siquepica<sup>®</sup></span>
+      </a>
+
+      <nav class="tabs" aria-label="Secciones">
+        <div class="tabs__list" role="tablist">
+          <a href="#inicio" role="tab" data-tab-link="inicio">Inicio</a>
+          <a href="#productos" role="tab" data-tab-link="productos">Productos</a>
+          <a href="#como-pedir" role="tab" data-tab-link="como-pedir">Cómo pedir</a>
+          <a href="#encuentranos" role="tab" data-tab-link="encuentranos">Encuéntranos</a>
+          <a href="#nosotros" role="tab" data-tab-link="nosotros">Nosotros</a>
+          <a href="#contacto" role="tab" data-tab-link="contacto">Contacto</a>
+          <span class="tabs__ink" aria-hidden="true"></span>
+        </div>
+      </nav>
+
+      <button class="cart-btn" id="cartBtn" aria-label="Ver tu pedido" aria-controls="drawer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 7h12l-1.2 11.2a2 2 0 0 1-2 1.8H9.2a2 2 0 0 1-2-1.8L6 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+        <span class="cart-btn__count" id="cartCount" hidden>0</span>
+      </button>
+      <a class="btn btn--wa btn--sm topbar__wa" data-wa="Hola Siquepica 👋 quiero hacer un pedido" href="#" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg><span>Pedir</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ===================== INICIO ===================== -->
+    <section class="panel" data-panel="inicio" aria-label="Inicio">
+      <div class="hero">
+        <div class="hero__copy">
+          <p class="hero__kicker"><span class="dot"></span> Saltillo · Monterrey · Envíos a todo México</p>
+          <h1 class="hero__title" aria-label="Dulce, picosito, adictivo.">
+            <span class="w w1">Dulce,</span>
+            <span class="w w2">picosito,</span>
+            <span class="w w3">adictivo.</span>
+          </h1>
+          <p class="hero__lead">Así nos describieron quienes nos probaron. Dulces enchilados y fruta deshidratada con chile, en bolsitas y charolas para compartir (o no).</p>
+          <div class="hero__ctas">
+            <a class="btn btn--wa" data-wa="Hola Siquepica 👋 se me antojó, ¿qué tienen disponible?" href="#" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg> Pedir por WhatsApp
+            </a>
+            <a class="btn btn--ghost" href="#productos" data-tab-link="productos">Ver productos</a>
+          </div>
+          <ul class="hero__facts">
+            <li><strong>Rappi</strong> Saltillo y Monterrey</li>
+            <li><strong>Envíos</strong> nacionales</li>
+            <li><strong>+4 mil</strong> antojados en Instagram</li>
+          </ul>
+        </div>
+
+        <div class="hero__art" aria-hidden="true">
+          <div class="sun"></div>
+          <img class="hero__logo" src="img/logo.png" alt="" width="420" height="420">
+          <img class="float f1" src="img/productos/cherry-bombs.svg" alt="">
+          <img class="float f2" src="img/productos/charola-700-dulces.svg" alt="">
+          <img class="float f3" src="img/productos/gusanitos.svg" alt="">
+        </div>
+      </div>
+
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker__track">
+          <span>Cherry bombs</span><i>🌶</i><span>Watermelon</span><i>🌶</i><span>Gusanitos</span><i>🌶</i><span>Donitas de durazno</span><i>🌶</i><span>Fruta deshidratada</span><i>🌶</i><span>Charola 700 g</span><i>🌶</i><span>Mix de dulces</span><i>🌶</i>
+          <span>Cherry bombs</span><i>🌶</i><span>Watermelon</span><i>🌶</i><span>Gusanitos</span><i>🌶</i><span>Donitas de durazno</span><i>🌶</i><span>Fruta deshidratada</span><i>🌶</i><span>Charola 700 g</span><i>🌶</i><span>Mix de dulces</span><i>🌶</i>
+        </div>
+      </div>
+
+      <div class="wrap">
+        <div class="ways">
+          <a class="way" href="#encuentranos" data-tab-link="encuentranos">
+            <span class="way__icon">🛵</span>
+            <h3>En Rappi</h3>
+            <p>Búscanos como <em>Siquepica Dulces Enchilados</em> en Saltillo y Monterrey y te llega a tu puerta.</p>
+          </a>
+          <a class="way" href="#como-pedir" data-tab-link="como-pedir">
+            <span class="way__icon">📦</span>
+            <h3>A todo México</h3>
+            <p>Mándanos tu código postal y te cotizamos el envío. El antojo no tiene fronteras.</p>
+          </a>
+          <a class="way" href="#encuentranos" data-tab-link="encuentranos">
+            <span class="way__icon">📍</span>
+            <h3>Puntos de venta</h3>
+            <p>Estamos en varios lugares de Saltillo y Monterrey. Pregúntanos cuál te queda más cerca.</p>
+          </a>
+        </div>
+
+        <div class="section-head">
+          <h2>Los que más se piden</h2>
+          <a class="link" href="#productos" data-tab-link="productos">Ver todo el menú</a>
+        </div>
+        <div class="grid grid--products" id="featured"></div>
+
+        <article class="recipe">
+          <div class="recipe__art" aria-hidden="true">
+            <img src="img/mangonada.svg" alt="" width="320" height="320" class="mangonada">
+          </div>
+          <div class="recipe__copy">
+            <h2>Receta para el team mango con chilito</h2>
+            <p>Una de las favoritas de nuestra comunidad. Fresca, dulce, picosita y peligrosamente fácil.</p>
+            <ol class="recipe__steps">
+              <li>Sirve <strong>nieve de mango</strong> en un vaso.</li>
+              <li>Baña con <strong>chamoy</strong> y espolvorea <strong>Tajín</strong>.</li>
+              <li>Un chorrito de <strong>Miguelito</strong> para el toque ácido.</li>
+              <li>Corona con muchos <strong>gusanitos Siquepica</strong>. Muchos.</li>
+            </ol>
+            <button class="btn btn--red" data-add="gusanitos">Agregar gusanitos a mi pedido</button>
+          </div>
+        </article>
+
+        <aside class="band">
+          <div>
+            <h2>¿Tienes un negocio?</h2>
+            <p>Si te gustaría vender Siquepica en tu tienda, cafetería o snack, te contamos cómo.</p>
+          </div>
+          <a class="btn btn--light" href="#contacto" data-tab-link="contacto" data-scroll="mayoreo">Quiero vender Siquepica</a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===================== PRODUCTOS ===================== -->
+    <section class="panel" data-panel="productos" aria-label="Productos" hidden>
+      <div class="wrap">
+        <header class="page-head">
+          <h1>El menú del antojo</h1>
+          <p>Dulces enchilados, fruta deshidratada con chile y mezclas de los dos. Agrega lo que se te antoje y mándanos tu pedido armado por WhatsApp.</p>
+        </header>
+
+        <div class="filters" role="group" aria-label="Filtrar productos">
+          <button class="chip is-on" data-filter="todos">Todo</button>
+          <button class="chip" data-filter="bolsitas">Bolsitas</button>
+          <button class="chip" data-filter="charolas">Charolas</button>
+          <button class="chip" data-filter="fruta">Fruta</button>
+        </div>
+
+        <div class="grid grid--products" id="catalog"></div>
+
+        <div class="sizes">
+          <h2>Presentaciones</h2>
+          <div class="sizes__row">
+            <div class="size"><span class="size__bar" style="--h:22%"></span><strong>100 g</strong><span>Bolsita chica</span></div>
+            <div class="size"><span class="size__bar" style="--h:45%"></span><strong>250 g</strong><span>Bolsita</span></div>
+            <div class="size"><span class="size__bar" style="--h:62%"></span><strong>350 g</strong><span>Charola</span></div>
+            <div class="size"><span class="size__bar" style="--h:100%"></span><strong>700 g</strong><span>Charola grande</span></div>
+          </div>
+          <p class="note">Precios y existencias cambian según temporada. Te confirmamos todo por WhatsApp o DM antes de apartar.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CÓMO PEDIR ===================== -->
+    <section class="panel" data-panel="como-pedir" aria-label="Cómo pedir" hidden>
+      <div class="wrap">
+        <header class="page-head">
+          <h1>Pedir es más fácil de lo que crees</h1>
+          <p>Cinco pasos y tu antojo va en camino.</p>
+        </header>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step__n">1</span>
+            <div>
+              <h3>Escríbenos</h3>
+              <p>Mándanos DM o WhatsApp y dinos desde qué ciudad nos escribes. Si necesitas envío, compártenos tu código postal.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step__n">2</span>
+            <div>
+              <h3>Elige lo que más se te antoje</h3>
+              <p>Dulces enchilados, fruta deshidratada enchilada o mix de dulces con fruta. Escoge tu presentación favorita.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step__n">3</span>
+            <div>
+              <h3>Confirmamos disponibilidad</h3>
+              <p>Te pasamos el total de tu pedido, las opciones de entrega y, si aplica, el costo de envío. Apartas con el <strong>50% de anticipo</strong>.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step__n">4</span>
+            <div>
+              <h3>Elige cómo recibirlo</h3>
+              <p>Recolección sin costo, entrega a domicilio en Saltillo y Monterrey, o envío nacional.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step__n">5</span>
+            <div>
+              <h3>Liquida y recibe</h3>
+              <p>Según la opción que elegiste, liquidas al recoger o antes de que salga tu pedido. Y a disfrutar.</p>
+            </div>
+          </li>
+        </ol>
+
+        <h2 class="h2-space">Opciones de entrega</h2>
+        <div class="delivery">
+          <article class="dcard">
+            <div class="dcard__top" style="--c:var(--green)">🛍️</div>
+            <h3>Recolección sin costo</h3>
+            <p>Recoge tu pedido en uno de nuestros puntos participantes. Se agenda según los horarios de entrega.</p>
+            <p class="dcard__pay"><strong>Pago:</strong> si recoges directo con nosotros, liquidas ahí mismo. En otro punto participante, tu pedido debe quedar liquidado antes.</p>
+          </article>
+          <article class="dcard">
+            <div class="dcard__top" style="--c:var(--orange)">🛵</div>
+            <h3>Entrega a domicilio</h3>
+            <p>Disponible en Saltillo y Monterrey. El costo depende de tu zona.</p>
+            <p class="dcard__pay"><strong>Pago:</strong> se liquida antes de que salga tu pedido.</p>
+          </article>
+          <article class="dcard">
+            <div class="dcard__top" style="--c:var(--red)">📦</div>
+            <h3>Envío nacional</h3>
+            <p>Enviamos a toda la República Mexicana. Solo pásanos tu código postal para cotizar.</p>
+            <p class="dcard__pay"><strong>Pago:</strong> se liquida antes del envío.</p>
+          </article>
+        </div>
+
+        <div class="band band--yellow">
+          <div>
+            <h2>¿Ya sabes qué vas a pedir?</h2>
+            <p>Arma tu pedido en la página y te lo mandamos listo a WhatsApp.</p>
+          </div>
+          <a class="btn btn--red" href="#productos" data-tab-link="productos">Armar mi pedido</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ENCUÉNTRANOS ===================== -->
+    <section class="panel" data-panel="encuentranos" aria-label="Dónde encontrarnos" hidden>
+      <div class="wrap">
+        <header class="page-head">
+          <h1>¿Dónde consigo Siquepica?</h1>
+          <p>En Rappi, en puntos de venta de Saltillo y Monterrey, o directo en tu casa con envío nacional.</p>
+        </header>
+
+        <div class="route" aria-hidden="true">
+          <svg viewBox="0 0 800 220" class="route__svg">
+            <path id="routePath" d="M90 160 C230 40 330 200 450 110 S650 60 710 80" fill="none" stroke="var(--red)" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 14"/>
+            <g class="pin" transform="translate(90 160)"><circle r="16" fill="var(--red)"/><circle r="6" fill="#fff"/></g>
+            <g class="pin" transform="translate(710 80)"><circle r="16" fill="var(--red)"/><circle r="6" fill="#fff"/></g>
+            <text x="90" y="205" text-anchor="middle" class="route__city">Saltillo</text>
+            <text x="710" y="130" text-anchor="middle" class="route__city">Monterrey</text>
+            <g class="route__chili">
+              <path d="M10 -14 C16 -8 15 4 5 11 C-1 15 -9 16 -12 13 C-8 12 0 8 4 2 C8 -4 8 -9 6 -13 Z" fill="var(--red)"/>
+              <path d="M6 -14 C8 -17 12 -17 14 -13 C12 -12 8 -12 6 -14 Z" fill="var(--green)"/>
+              <animateMotion dur="7s" repeatCount="indefinite" rotate="auto"><mpath href="#routePath"/></animateMotion>
+            </g>
+          </svg>
+        </div>
+
+        <div class="split">
+          <article class="place">
+            <div class="place__head">
+              <span class="rappi-badge">Rappi</span>
+              <h2>Saltillo</h2>
+            </div>
+            <p>Desde enero de 2026 ya estamos en Rappi Saltillo. Encuentra bolsitas de 250 g en nuestra nueva presentación y charolas de 350 g y 700 g.</p>
+            <p class="muted">Abre Rappi y busca <strong>Siquepica Dulces Enchilados</strong>.</p>
+            <a class="btn btn--rappi" data-rappi href="#" target="_blank" rel="noopener">Abrir Rappi</a>
+          </article>
+
+          <article class="place">
+            <div class="place__head">
+              <span class="rappi-badge">Rappi</span>
+              <h2>Monterrey</h2>
+            </div>
+            <p>Llegamos a Rappi Monterrey en marzo de 2026. Disponible en:</p>
+            <ul class="zones">
+              <li>Valle Oriente</li><li>San Agustín</li><li>Contry</li><li>Zona Tec</li><li>Roma</li>
+              <li>Centro Sur</li><li>Las Brisas</li><li>Del Paseo</li><li>Mederos</li><li>y zonas cercanas</li>
+            </ul>
+            <table class="hours">
+              <caption>Horario en Rappi Monterrey</caption>
+              <tr><th scope="row">Lunes a viernes</th><td>11:00 am – 6:30 pm</td></tr>
+              <tr><th scope="row">Sábado</th><td>11:00 am – 2:00 pm</td></tr>
+            </table>
+            <p class="muted small">La disponibilidad puede variar según tu ubicación dentro de la app.</p>
+            <a class="btn btn--rappi" data-rappi href="#" target="_blank" rel="noopener">Abrir Rappi</a>
+          </article>
+        </div>
+
+        <div class="split">
+          <article class="place place--soft">
+            <h2>Puntos de venta</h2>
+            <p>Tenemos presencia en diferentes ubicaciones de Saltillo y Monterrey. La lista completa y actualizada está en las historias destacadas de nuestro Instagram.</p>
+            <div class="btn-row">
+              <a class="btn btn--ghost" data-ig href="#" target="_blank" rel="noopener">Ver lista en Instagram</a>
+              <a class="btn btn--wa" data-wa="Hola Siquepica 👋 ¿cuál es el punto de venta más cercano a mí? Estoy en:" href="#" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg> Preguntar el más cercano
+              </a>
+            </div>
+          </article>
+          <article class="place place--soft">
+            <h2>Envíos nacionales</h2>
+            <p>Porque el antojo de Siquepica llega a todo México. Escribe tu código postal y te mandamos la cotización por WhatsApp.</p>
+            <form class="cp-form" id="cpForm">
+              <label for="cp">Tu código postal</label>
+              <div class="cp-form__row">
+                <input id="cp" name="cp" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" placeholder="Ej. 25000" required>
+                <button class="btn btn--red" type="submit">Cotizar envío</button>
+              </div>
+              <p class="cp-form__msg" id="cpMsg" role="status"></p>
+            </form>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== NOSOTROS ===================== -->
+    <section class="panel" data-panel="nosotros" aria-label="Nosotros" hidden>
+      <div class="wrap">
+        <div class="story">
+          <div class="story__copy">
+            <h1>Un antojo que se volvió marca</h1>
+            <p>Siquepica nació en el norte, donde el chile se le pone a todo: a la fruta, a los dulces, a la nieve y hasta a las papitas. Empezamos con una idea sencilla: hacer dulces enchilados que de verdad piquen, pero que también sepan a algo.</p>
+            <p>Hoy preparamos bolsitas, charolas y mezclas de dulces y fruta deshidratada que salen de Saltillo y Monterrey hacia todo México. Los encuentras en Rappi, en puntos de venta locales o directo en tu puerta.</p>
+            <p>México sabe a limón, a chile, a chamoy… y a ese antojo que siempre se comparte. De eso se trata.</p>
+          </div>
+          <figure class="story__badge">
+            <img src="img/logo.png" alt="Logotipo de Siquepica: un chile rojo con flamas y el texto si que pica, dulces enchilados" width="360" height="360">
+          </figure>
+        </div>
+
+        <h2 class="h2-space">Lo que nos importa</h2>
+        <div class="values">
+          <div class="value">
+            <span class="value__emoji">🔥</span>
+            <h3>Que sí pique</h3>
+            <p>No le tenemos miedo al chile. Cada dulce lleva su buena capa, pareja, hasta la última pieza.</p>
+          </div>
+          <div class="value">
+            <span class="value__emoji">🍬</span>
+            <h3>Que sepa rico</h3>
+            <p>El picor acompaña, no tapa. Buscamos el balance entre lo dulce, lo ácido y lo picosito.</p>
+          </div>
+          <div class="value">
+            <span class="value__emoji">🤝</span>
+            <h3>Que se comparta</h3>
+            <p>Charolas para la reunión, bolsitas para regalar. Un antojo sabe mejor cuando es de dos.</p>
+          </div>
+        </div>
+
+        <section class="three" aria-labelledby="tres-palabras">
+          <h2 id="tres-palabras">El reto de las 3 palabras</h2>
+          <p>Regalamos Siquepica a varias personas y les pedimos describirlo en solo tres palabras. Estas fueron las que más se repitieron:</p>
+          <div class="three__words">
+            <span class="tw tw1">Dulce</span>
+            <span class="tw tw2">Picosito</span>
+            <span class="tw tw3">Adictivo</span>
+          </div>
+          <p class="muted">¿Y tú? Cuéntanos tus tres palabras en <a data-ig href="#" target="_blank" rel="noopener">Instagram</a>.</p>
+        </section>
+
+        <section class="team" id="team" hidden aria-labelledby="equipo-titulo">
+          <h2 id="equipo-titulo" class="h2-space">Detrás de Siquepica</h2>
+          <div class="team__grid" id="teamGrid"></div>
+        </section>
+
+        <div class="ig-card">
+          <img src="img/logo.png" alt="" width="88" height="88">
+          <div>
+            <h2>@siquepica_mx</h2>
+            <p>Lanzamientos, recetas, dinámicas y dónde estamos esta semana. Más de 4 mil personas ya nos siguen.</p>
+          </div>
+          <a class="btn btn--ig" data-ig href="#" target="_blank" rel="noopener">Seguir en Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACTO ===================== -->
+    <section class="panel" data-panel="contacto" aria-label="Contacto" hidden>
+      <div class="wrap">
+        <header class="page-head">
+          <h1>Hablemos</h1>
+          <p>Pedidos, envíos, eventos o mayoreo. Te contestamos por WhatsApp o por DM en Instagram.</p>
+        </header>
+
+        <div class="contact">
+          <a class="ccard ccard--wa" data-wa="Hola Siquepica 👋" href="#" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
+            <span class="ccard__label">WhatsApp</span>
+            <strong data-wa-visible>844 274 8215</strong>
+            <span class="ccard__hint">La forma más rápida de pedir</span>
+          </a>
+          <a class="ccard ccard--ig" data-ig href="#" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+            <span class="ccard__label">Instagram</span>
+            <strong>@siquepica_mx</strong>
+            <span class="ccard__hint">Mándanos DM</span>
+          </a>
+          <a class="ccard ccard--rappi" data-rappi href="#" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="7" cy="17" r="3"/><circle cx="18" cy="17" r="3"/><path d="M7 17h6l3-7h-4M14 6h3l1 4"/></svg>
+            <span class="ccard__label">Rappi</span>
+            <strong>Saltillo y Monterrey</strong>
+            <span class="ccard__hint">Siquepica Dulces Enchilados</span>
+          </a>
+        </div>
+
+        <div class="split split--wide" id="mayoreo">
+          <form class="form" id="bizForm">
+            <h2>Vende Siquepica en tu negocio</h2>
+            <p class="muted">Llena esto y se abre WhatsApp con tu mensaje listo. Te mandamos toda la información.</p>
+            <div class="field">
+              <label for="bName">Tu nombre</label>
+              <input id="bName" name="nombre" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="bBiz">Nombre del negocio</label>
+              <input id="bBiz" name="negocio" required>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="bCity">Ciudad</label>
+                <select id="bCity" name="ciudad">
+                  <option>Saltillo</option>
+                  <option>Monterrey</option>
+                  <option>Otra ciudad</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="bType">Tipo de negocio</label>
+                <select id="bType" name="tipo">
+                  <option>Tienda o abarrotes</option>
+                  <option>Cafetería o snack</option>
+                  <option>Escuela o cooperativa</option>
+                  <option>Evento o fiesta</option>
+                  <option>Otro</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label for="bMsg">Algo más que debamos saber <span class="muted">(opcional)</span></label>
+              <textarea id="bMsg" name="mensaje" rows="3"></textarea>
+            </div>
+            <button class="btn btn--wa btn--block" type="submit">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg> Enviar por WhatsApp
+            </button>
+          </form>
+
+          <div class="faq">
+            <h2>Preguntas frecuentes</h2>
+            <details>
+              <summary>¿Hacen envíos fuera de Saltillo y Monterrey?</summary>
+              <p>Sí, hacemos envíos a toda la República Mexicana. Mándanos tu código postal por WhatsApp o DM y te cotizamos.</p>
+            </details>
+            <details>
+              <summary>¿Cómo aparto mi pedido?</summary>
+              <p>Cuando confirmamos disponibilidad te pasamos el total. Apartas con el 50% de anticipo y liquidas el resto según tu forma de entrega.</p>
+            </details>
+            <details>
+              <summary>¿Puedo recoger mi pedido?</summary>
+              <p>Sí, la recolección no tiene costo. Puedes recoger con nosotros o en uno de los puntos participantes, sujeto a los horarios de entrega.</p>
+            </details>
+            <details>
+              <summary>¿Qué presentaciones tienen?</summary>
+              <p>Bolsitas de 100 g y 250 g, charola de 350 g (mix de fruta) y charola de 700 g (mix de dulces). También armamos mixes de dulces con fruta.</p>
+            </details>
+            <details>
+              <summary>¿Están en Rappi?</summary>
+              <p>Sí, en Saltillo y en Monterrey. Búscanos como Siquepica Dulces Enchilados. En Monterrey el horario es de lunes a viernes de 11:00 am a 6:30 pm y sábados de 11:00 am a 2:00 pm.</p>
+            </details>
+            <details>
+              <summary>¿Hacen pedidos para eventos?</summary>
+              <p>Sí. Las charolas de 700 g son ideales para fiestas y reuniones. Escríbenos con la fecha y cuántas personas serán.</p>
+            </details>
+            <details>
+              <summary>¿Qué tanto pican?</summary>
+              <p>Pican rico: se siente el chile pero no te quita el sabor del dulce. Si eres nuevo en lo enchilado, empieza por las donitas o la fruta.</p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ PIE ============ -->
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div class="footer__brand">
+        <img src="img/logo.png" alt="Siquepica" width="72" height="72">
+        <p>Dulces enchilados<br>Saltillo · Monterrey · Envíos nacionales</p>
+      </div>
+      <nav class="footer__nav" aria-label="Pie de página">
+        <a href="#productos" data-tab-link="productos">Productos</a>
+        <a href="#como-pedir" data-tab-link="como-pedir">Cómo pedir</a>
+        <a href="#encuentranos" data-tab-link="encuentranos">Encuéntranos</a>
+        <a href="#nosotros" data-tab-link="nosotros">Nosotros</a>
+        <a href="#contacto" data-tab-link="contacto">Contacto</a>
+      </nav>
+      <div class="footer__social">
+        <a data-wa="Hola Siquepica 👋" href="#" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><use href="#i-wa"/></svg></a>
+        <a data-ig href="#" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/></svg></a>
+      </div>
+    </div>
+    <p class="footer__legal">© <span id="year">2026</span> Siquepica®. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- ============ BARRA INFERIOR (CELULAR) ============ -->
+  <nav class="bottombar" aria-label="Secciones">
+    <a href="#inicio" data-tab-link="inicio"><svg viewBox="0 0 24 24"><path d="M4 11 12 4l8 7v8a1 1 0 0 1-1 1h-4v-6H9v6H5a1 1 0 0 1-1-1z"/></svg><span>Inicio</span></a>
+    <a href="#productos" data-tab-link="productos"><svg viewBox="0 0 24 24"><path d="M6 7h12l-1.2 11.2a2 2 0 0 1-2 1.8H9.2a2 2 0 0 1-2-1.8L6 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg><span>Productos</span></a>
+    <a href="#como-pedir" data-tab-link="como-pedir"><svg viewBox="0 0 24 24"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/></svg><span>Pedir</span></a>
+    <a href="#encuentranos" data-tab-link="encuentranos"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Dónde</span></a>
+    <a href="#nosotros" data-tab-link="nosotros"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/></svg><span>Nosotros</span></a>
+    <a href="#contacto" data-tab-link="contacto"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H8l-4 4z"/></svg><span>Contacto</span></a>
+  </nav>
+
+  <!-- ============ PANEL DE PEDIDO ============ -->
+  <div class="scrim" id="scrim" hidden></div>
+  <aside class="drawer" id="drawer" aria-label="Tu pedido" aria-hidden="true">
+    <header class="drawer__head">
+      <h2>Tu pedido</h2>
+      <button class="icon-btn" id="drawerClose" aria-label="Cerrar">
+        <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </header>
+    <div class="drawer__body">
+      <ul class="order" id="orderList"></ul>
+      <div class="order-empty" id="orderEmpty">
+        <img src="img/productos/mix-dulces-fruta.svg" alt="" width="140" height="140">
+        <p>Tu pedido está vacío. Agrega productos desde el menú.</p>
+        <a class="btn btn--ghost btn--sm" href="#productos" data-tab-link="productos" data-close-drawer>Ver productos</a>
+      </div>
+      <div class="order-form" id="orderForm" hidden>
+        <div class="field">
+          <label for="oCity">¿Desde dónde nos escribes?</label>
+          <select id="oCity">
+            <option>Saltillo</option>
+            <option>Monterrey</option>
+            <option>Otra ciudad (envío nacional)</option>
+          </select>
+        </div>
+        <fieldset class="field">
+          <legend>¿Cómo lo quieres recibir?</legend>
+          <label class="radio"><input type="radio" name="oWay" value="Recolección sin costo" checked> Recolección sin costo</label>
+          <label class="radio"><input type="radio" name="oWay" value="Entrega a domicilio"> Entrega a domicilio</label>
+          <label class="radio"><input type="radio" name="oWay" value="Envío nacional"> Envío nacional</label>
+        </fieldset>
+        <div class="field" id="oCpField" hidden>
+          <label for="oCp">Código postal</label>
+          <input id="oCp" inputmode="numeric" maxlength="5" placeholder="Ej. 64000">
+        </div>
+      </div>
+    </div>
+    <footer class="drawer__foot" id="drawerFoot" hidden>
+      <p class="muted small">Te confirmamos precio y disponibilidad por WhatsApp. Apartas con 50% de anticipo.</p>
+      <button class="btn btn--wa btn--block" id="sendOrder">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg> Enviar pedido por WhatsApp
+      </button>
+    </footer>
+  </aside>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Íconos -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.2-.2-.4-.3Z"/></symbol>
+  </svg>
+
+  <script src="js/datos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
